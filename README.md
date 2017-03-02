@@ -112,7 +112,7 @@ defmodule MyApp.Emails do
     )
 
     # or pipe using Bamboo.Email functions
-    new_email
+    new_email()
     |> to("foo@example.com")
     |> from("me@example.com")
     |> subject("Welcome!!!")
